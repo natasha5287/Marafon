@@ -1,0 +1,194 @@
+/*
+font-family: "Montserrat", sans-serif;
+font-family: "Playfair Display", serif;
+*/
+body {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    position: relative;
+    width: 1440px;
+    height: 4470px;
+    
+    color: #AE7C78;
+    background: #FFFFFF;
+}
+
+.main-menu ul {
+    list-style-type: none;
+}
+
+.main-menu a {
+    line-height: 20px;
+    color: #AE7C78;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+}
+
+.intro span {
+    font-style: italic;
+}
+
+.intro p {
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+}
+
+.intro a,
+.popular_bouquet a {
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.advantage {
+    color: #AE7C78;
+}
+
+.advantage h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.advantage p {
+    line-height: 20px;
+}
+
+.advantage-delivery::before{
+    content: "";
+    background: url(../img/item-1.svg);
+    position: absolute;
+    width: 82px;
+    height: 52px;
+}
+
+.advantage-fresh::before {
+    content: "";
+    background: url(../img/item-2.svg);
+    position: absolute;
+    width: 52px;
+    height: 52px;
+}
+
+.advantage-photo::before {
+    content: "";
+    background: url(../img/item-3.svg);
+    position: absolute;
+    width: 59px;
+    height: 52px;
+}
+
+.popular h2,
+.steps h2,
+.news h2,
+.reviews h2,
+.contacts h2  {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #AE7C78;
+}
+
+.popular h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #AE7C78;
+}
+
+.popular_bouquet p:nth-of-type(3) {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.popular_bouquet a {
+    color: #FFFFFF;
+    position: absolute;
+    width: 285px;
+    height: 80px;
+    text-align: center;
+
+    background: #D89999;
+    border-radius: 40px;
+
+}
+
+.button_previous {
+    width: 50px;
+    height: 15px;
+    background: #FFFFFF url(../img/arrow_previous.svg) no-repeat 0 0 ;
+    border: none;
+}
+
+.button_next {
+    width: 50px;
+    height: 15px;
+    background: #FFFFFF url(../img/arrow_next.svg) no-repeat 0 0 ;
+    border: none;
+}
+
+/* Каталог*/
+
+.catalog_wedding a {
+    position: absolute;
+    width: 387px;
+    height: 442px;
+    
+    background-image: url(../img/catalog-item-1.jpg);
+    background-color: rgba(174, 124, 120, 0.6);
+    opacity: 0.87;
+    border-radius: 10px;
+}
+
+/*скидка*/
+.discount h2 {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    color: #FFFFFF;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+}
+
+.discount_promo p {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.discount {
+    width: 1200px;
+    height: 391px;
+
+    background: #AE7C78;
+}
+
+/*шаги*/
+
+.steps_option {
+    list-style-type: none; 
+}
+
+.steps_option h3 {
+    font-weight: 500; 
+}
+
+.news p {
+    font-size: 24px;
+    line-height: 29px;
+}
