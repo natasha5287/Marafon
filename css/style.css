@@ -9,13 +9,14 @@ body {
     font-size: 16px;
     position: relative;
     width: 1440px;
-    height: 4470px;
+    
     
     color: #AE7C78;
     background: #FFFFFF;
 }
 
-.main-menu ul {
+.main-menu ul,
+.list_social {
     list-style-type: none;
 }
 
@@ -41,6 +42,17 @@ h1 {
     font-size: 24px;
     line-height: 29px;
     color: #AE7C78;
+}
+
+.intro_catalog a {
+    position: absolute;
+    width: 285px;
+    height: 80px;
+    color: #FFFFFF;
+    text-align: center;
+
+    background: #D89999;
+    border-radius: 40px;
 }
 
 .intro a,
@@ -88,6 +100,7 @@ h1 {
 }
 
 .popular h2,
+.catalog_a h2,
 .steps h2,
 .news h2,
 .reviews h2,
@@ -143,16 +156,48 @@ h1 {
 
 /* Каталог*/
 
-.catalog_wedding a {
+.catalog a {
+    text-decoration: none;
+}
+
+.catalog_a h2 {
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF; 
+}
+.catalog_a p {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.catalog_wedding {
     position: absolute;
     width: 387px;
     height: 442px;
-    
+
     background-image: url(../img/catalog-item-1.jpg);
-    background-color: rgba(174, 124, 120, 0.6);
     opacity: 0.87;
     border-radius: 10px;
 }
+
+.catalog_wedding::before {
+    content: "";
+    position: absolute;
+    width: 387px;
+    height: 442px;
+    background: rgba(174, 124, 120, 0.6);
+    opacity: 0.87;
+    border-radius: 10px;
+}
+
+.catalog_seasonal {
+    width: 387px;
+    height: 442px;
+    background-image: url(../img/catalog-item-2.jpg);
+    border-radius: 10px;
+}
+
+
 
 /*скидка*/
 .discount h2 {
@@ -188,7 +233,26 @@ h1 {
     font-weight: 500; 
 }
 
+/*Новости*/
+
 .news p {
     font-size: 24px;
     line-height: 29px;
 }
+
+.contacts {
+    position: absolute;
+    width: 1440px;
+    height: 644.1px;
+    background-image: url(../img/map.png);
+}
+
+.contacts .contacts_list {
+    position: absolute;
+    width: 386px;
+    height: 520px;
+    background: #F7FAFC;
+    box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+    border-radius: 12px;
+}
+/*Подвал*/
